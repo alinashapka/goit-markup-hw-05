@@ -690,7 +690,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   padding: 8px 24px;
   border-radius: 4px;
   min-width: 165px;
@@ -715,6 +714,7 @@ address {
 
 .form-button-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .footer-icon-list {

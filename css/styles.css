@@ -558,6 +558,7 @@ address {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -578,13 +579,13 @@ address {
   background-color: #4d5ae5;
   color: #fff;
   border: none;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button-send:hover,
 .modal-button-send:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .checkbox-field {
@@ -624,8 +625,8 @@ address {
 
 .visually-hidden:checked + .icon-span {
   background-color: #404bbf;
-  border: none;
   fill: #f4f4fd;
+  border: none;
 }
 
 .icon-span {

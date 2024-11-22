@@ -591,7 +591,6 @@ address {
 .checkbox-field {
   margin-bottom: 24px;
   display: flex;
-  justify-content: center;
 }
 
 .checkbox-field .modal-form-label {

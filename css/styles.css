@@ -623,7 +623,7 @@ address {
   border: 0;
 }
 
-.visually-hidden:checked + .icon-span {
+.visually-hidden:checked + .modal-form-label > .icon-span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
@@ -642,13 +642,6 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.icon-span:hover,
-.icon-span:focus {
-  background-color: #404bbf;
-  border: 1px solid #404bbf;
-  fill: #f4f4fd;
 }
 
 .checkbox-icon {
